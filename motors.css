@@ -1,0 +1,184 @@
+body {
+    margin: 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+.topHeader {
+    background-color: #43536A;
+}
+
+.topHeader .logo {
+    height: 100px;
+    width: 150px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.topHeader .infor {
+    margin-top: 45px;
+}
+
+.topHeader .infor a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.topHeader .infor i {
+    color: #ccc;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .list {
+    text-align: center;
+    margin-bottom: -1px;
+    margin-top: -20px;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .list .itemDesktopMenu {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .list .itemDesktopMenu:hover {
+    background-color: #D76A21;
+    border-top: solid #000 2px;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .list>.itemDesktopMenu:first-child {
+    background-color: #D76A21;
+    border-top: solid #000 2px;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .list>.itemDesktopMenu:first-child>a {
+    color: #fff;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .list .itemDesktopMenu:hover>a {
+    color: #fff;
+    display: block;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .list .itemDesktopMenu>a {
+    text-decoration: none;
+    font-weight: bold;
+    font-weight: 700;
+    color: #000;
+}
+
+.bottomHeader .desktop-menu .payment {
+    margin-top: 23px;
+    margin-left: 50px;
+}
+
+.bottomHeader .desktop-menu .payment a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.bottomHeader .desktop-menu {
+    border-bottom: solid 1px;
+}
+
+.bottomHeader .subMenu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 10px;
+    margin: 16px;
+    margin-left: -17px;
+    text-align: left;
+    border: solid #ccc 1px;
+    z-index: 111111111;
+    background-color: #fff;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .subMenu>li>a {
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+    display: block;
+    margin-right: -100px;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .subMenu>li {
+    display: block;
+    padding: 20px;
+    padding-right: 190px;
+    margin: -10px;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .itemDesktopMenu:hover .subMenu {
+    display: block;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .itemDesktopMenu .subMenu>li:hover {
+    background-color: #F4A024;
+}
+
+.bottomHeader .desktop-menu .desktopMenu .itemDesktopMenu .subMenu>li:hover>a {
+    color: #fff;
+    font-weight: bold;
+    font-weight: 400;
+}
+
+/*main*/
+
+.topMain .listProducts button {
+    color: white;
+    font-weight: bold;
+    font-weight: 500;
+    width: 90px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.topMain .form {
+    background-color: #fff;
+    border: solid white 1px;
+}
+.topMain .form .inforCustomer button {
+    color: white;
+    font-weight: bold;
+    font-weight: 500;
+    width: 100px;
+}
+
+.topMain .form .inforCustomer .form-control {
+    background-color: rgb(221, 218, 218);
+}
+
+.topMain .news {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+.topMain p.date{
+    color: #ccc;
+}
+
+/*footer*/
+.footer {
+    background-color: #43536A;
+    padding-top: 20px;
+}
+
+.footer .media>i {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.footer .media .media-body {
+    padding-left: 10px;
+}
+
+.footer .media .media-body .inforMap>a {
+    color: coral;
+    text-decoration: underline;
+}
